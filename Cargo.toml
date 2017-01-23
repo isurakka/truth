@@ -1,0 +1,14 @@
+[package]
+name = "untitled"
+version = "0.1.0"
+authors = ["Iiro Surakka <iiro.surakka@gmail.com>"]
+
+[dependencies]
+rocket = "*"
+rocket_codegen  = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+
+[dependencies.rocket_contrib]
+features = ["handlebars_templates"]
